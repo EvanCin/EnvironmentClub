@@ -1,0 +1,54 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.banner {
+    background-image: url(../EnvironmentClub/images/nature.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+
+}
+.clubLogo{
+    width:160px;
+    position: absolute;
+    top: 4%;
+    left:10%;
+}
+.banner-text{
+    text-align: center;
+    color:white;
+    padding-top: 180px;
+}
+.banner-text h1{
+    font-size: 100px;
+}
+.banner-text h5{
+    font-size: 20px;
+}
+.banner-btn{
+    margin: 70px auto 0;
+}
+.banner-btn a{
+    width: 150px;
+    display: inline-block;
+    background-color: white;
+    color:black;
+    border: 1px solid black;
+    text-align:center;
+    text-decoration: none;
+    padding: 12px 0;
+    margin: 0 10px;
+
+}
+.banner-btn:hover{
+    
+}
+.banner-btn:visited{
+    color: blue;
+}
+.banner-btn:active{
+    border: 1px solid red;
+}
