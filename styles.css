@@ -1,8 +1,38 @@
 * {
     margin:0;
     padding:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.top-banner{
+    position: sticky;
+    top:0;
+}
+.clubLogo{
+    width:100px;
+    position: absolute;
+    top: 8%;
+    left:10%;
+}
+.top-banner ul{
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 30px;
+    background: white;
+}
+.top-banner li{
+    list-style:none;
+    margin-right:20px;
+    font-size:25px;
+    font-weight: bold;
+}
+
+.top-banner a{
+    text-decoration: none;
+    color: black;
+}
 .banner {
     background-image: url(images/envPhoto2.jpg);
     background-position: center;
@@ -11,12 +41,7 @@
     
 
 }
-.clubLogo{
-    width:160px;
-    position: absolute;
-    top: 4%;
-    left:10%;
-}
+
 .banner-text{
     text-align: center;
     color:white;
@@ -75,4 +100,14 @@
     height: 200px;
     object-fit: scale-down;
     pointer-events: none;
+}
+
+#first {
+    height:100vh;
+}
+#second {
+    height:100vh;
+}
+#third {
+    height:100vh;
 }
