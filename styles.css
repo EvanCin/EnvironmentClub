@@ -69,3 +69,9 @@
     top: 0;
     z-index:2;
 }
+
+.execPhotos img{
+    width: 200px;
+    height: 200px;
+    object-fit: scale-down;
+}
