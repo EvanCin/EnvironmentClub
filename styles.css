@@ -25,13 +25,16 @@
 .top-banner li{
     list-style:none;
     margin-right:20px;
-    font-size:25px;
+    font-size:18px;
     font-weight: bold;
 }
 
 .top-banner a{
     text-decoration: none;
     color: black;
+}
+.top-banner a:hover{
+    color:red;
 }
 .banner {
     background-image: url(images/envPhoto2.jpg);
@@ -104,10 +107,20 @@
 
 #first {
     height:100vh;
+    padding-top:10vh;
+    text-align: center;
+    font-size:32px;
+    font-weight: bold;
+
 }
 #second {
     height:100vh;
+    text-align: center;
 }
 #third {
     height:100vh;
+}
+
+#aboutS1{
+    height:300vh;
 }
