@@ -89,21 +89,7 @@
 .banner-btn a:hover{
     color:black;
 }
-.sideNav{
-    width: 120px;
-    height: 100vh;
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index:2;
-}
 
-.execPhotos img{
-    width: 200px;
-    height: 200px;
-    object-fit: scale-down;
-    pointer-events: none;
-}
 
 #first {
     height:100vh;
@@ -180,4 +166,18 @@ footer{
 }
 .icons a:hover i{
     color: aqua;
+}
+
+/* About Page */
+.execPhotos h1{
+    text-align: center;
+    font-size:40px;
+}
+.execPhotos img{
+    padding-top: 60px;
+    padding-left: 50px;
+    object-fit: scale-down;
+    pointer-events: none;
+    width:400px;
+    height:400px;
 }
