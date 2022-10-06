@@ -205,3 +205,15 @@ footer{
     height: auto;
     
 }
+
+/* Blog Page */
+.blogTitle{
+    text-align: center;
+    font-size: 40px;
+    padding: 20px 0 40px 0;
+}
+
+/* Calendar Page */
+.calendar .googleCalendar{
+    text-align: center;
+}
