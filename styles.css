@@ -169,15 +169,39 @@ footer{
 }
 
 /* About Page */
-.execPhotos h1{
+
+.execPhotos{
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 4rem;
+    align-items:top;
+    max-width: 800px;
+    margin: 0 auto;
+    font: 500 100%/1.5 system-ui;
+}
+.execPhotosTitle{
     text-align: center;
     font-size:40px;
+    padding: 20px 0 40px 0;
 }
 .execPhotos img{
-    padding-top: 60px;
-    padding-left: 50px;
+    /*
     object-fit: scale-down;
     pointer-events: none;
     width:400px;
     height:400px;
+    */
+    /*
+    float:left;
+    height:20%;
+    width:20%;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin:0 15px 0 0;
+    clear:both;
+    */
+    max-width: 100%;
+    height: auto;
+    
 }
