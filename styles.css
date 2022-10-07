@@ -108,15 +108,11 @@
     font-size: 18px;
 }
 #second {
-    height:100vh;
+    height:50vh;
     text-align: center;
 }
 #third {
-    height:100vh;
-}
-
-#aboutS1{
-    height:300vh;
+    height:50vh;
 }
 
 /* Footer */
