@@ -265,6 +265,12 @@ footer{
     font-size: 40px;
     padding: 20px 0 40px 0;
 }
+.presentations h3{
+    margin-left: 240px;
+}
+.googleSlides{
+    text-align: center;
+}
 
 /* Calendar Page */
 .calendar .googleCalendar{
