@@ -157,8 +157,8 @@ footer{
     font-size: 30px;
 }
 .footer-left h5{
-    font-size: 24px;
-    margin-top: 40px;
+    font-size: 18px;
+    margin-top: 43px;
 }
 .footer-left h6{
     color:grey;
@@ -173,8 +173,8 @@ footer{
     font-size: 24px;
 }
 .footer-center h4{
-    font-size: 24px;
-    margin-top: 58px;
+    font-size: 18px;
+    margin-top: 30px;
 }
 .footer-content .footer-right{
     display: block;
