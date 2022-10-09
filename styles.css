@@ -2,7 +2,8 @@
     margin:0;
     padding:0;
     /*font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
-    font-family: 'Arvo', serif;
+    /*font-family: 'Arvo', serif;*/
+    font-family: 'Sora';
 }
 
 /* Banner */
@@ -39,8 +40,7 @@
 
 /* Index page */
 .mainPage{
-    font-family: 'Arvo', serif;
-    font-weight:lighter;
+    /*font-family: 'Arvo', serif;*/
 }
 .banner{
     background-image: url(images/envPhoto2.jpg);
@@ -54,7 +54,7 @@
     padding-top: 170px;
 }
 .banner-text h1{
-    font-family: 'Arvo';
+    font-family: 'Sora';
     font-size: 100px;
 }
 .banner-text h5{
