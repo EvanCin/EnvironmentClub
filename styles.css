@@ -166,6 +166,7 @@ footer{
     margin-top: 150px;
 }
 .footer-content .footer-center{
+    display: block;
     margin-right:5vw;
     width: 25%;
 }
@@ -178,7 +179,7 @@ footer{
 }
 .footer-content .footer-right{
     display: block;
-    width: 25%;
+    width: 30%;
 }
 .footer-right h3{
     font-size: 32px;
