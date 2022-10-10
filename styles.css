@@ -92,20 +92,47 @@
 .banner-btn a:hover{
     color:black;
 }
-#first {
+/*First*/
+#mission {
     height:30vh;
     padding-top:10vh;
     text-align: center;
     font-size:32px;
     font-weight: bold;
 }
-#first p{
+#mission p{
     padding-top:5vh;
     font-size: 18px;
 }
-#second {
-    height:50vh;
+/*Second*/
+#garden {
     text-align: center;
+    align-items: center;
+    height:50vh;
+}
+#garden img{
+    width: 200px;
+    height: auto;
+}
+/*Third*/
+#litterPickup {
+    text-align: center;
+    align-items: center;
+    height:50vh;
+}
+#litterPickup img {
+    width: 200px;
+    height: auto;
+}
+/*Fourth*/
+#recycle {
+    text-align: center;
+    align-items: center;
+    height:50vh;
+}
+#recycle img {
+    width: 200px;
+    height: auto;
 }
 .join-us{
     text-align: center;
