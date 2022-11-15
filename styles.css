@@ -111,8 +111,10 @@
     height:50vh;
 }
 #garden img{
-    width: 200px;
-    height: auto;
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    background-size: cover;
 }
 /*Third*/
 #litterPickup {
@@ -121,21 +123,27 @@
     height:50vh;
 }
 #litterPickup img {
-    width: 200px;
-    height: auto;
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    background-size: cover;
 }
 /*Fourth*/
 #recycle {
+    padding-top: 10px;
     text-align: center;
     align-items: center;
     height:50vh;
 }
 #recycle img {
-    width: 200px;
-    height: auto;
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    background-size: cover;
 }
 .join-us{
     text-align: center;
+    padding-top: 10vh;
     padding-bottom: 20vh;
 }
 .join-us a{
@@ -247,6 +255,7 @@ footer{
     padding: 20px 0 40px 0;
 }
 .execPhotos img{
+    border-radius: 50%;
     max-width: 100%;
     height: auto;
     
