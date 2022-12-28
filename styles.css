@@ -107,38 +107,47 @@
 #garden {
     text-align: center;
     align-items: center;
-    height:50vh;
+    height:70vh;
+}
+#garden h1 {
+    padding-bottom: 5vh;
 }
 #garden img{
-    width: 300px;
-    height: 300px;
+    max-width: 70vw;
+    max-height: 50vh;
     margin-left: 20px;
     background-size: cover;
+    border: 7px solid grey;
+}
+#garden .img2{
+    height: 100vh;
 }
 /*Third*/
 #litterPickup {
     text-align: center;
     align-items: center;
-    height:50vh;
+    height:100vh;
 }
 #litterPickup img {
-    width: 300px;
-    height: 300px;
-    margin-left: 10px;
+    max-width: 70vw;
+    max-height: 50vh;
+    margin-left: 20px;
     background-size: cover;
+    border: 7px solid grey;
 }
 /*Fourth*/
 #recycle {
     padding-top: 10px;
     text-align: center;
     align-items: center;
-    height:50vh;
+    height:100vh;
 }
 #recycle img {
-    width: 300px;
-    height: 300px;
-    margin-left: 10px;
+    max-width: 70vw;
+    max-height: 50vh;
+    margin-left: 20px;
     background-size: cover;
+    border: 7px solid grey;
 }
 .join-us{
     text-align: center;
