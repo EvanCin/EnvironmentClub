@@ -5,7 +5,6 @@
     /*font-family: 'Arvo', serif;*/
     font-family: 'Sora';
 }
-/*test/////
 /* Banner */
 .top-banner{
     position: sticky;
@@ -255,10 +254,14 @@ footer{
     padding: 20px 0 40px 0;
 }
 .execPhotos img{
+    float: left;
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
     border-radius: 50%;
-    max-width: 100%;
-    height: auto;
-    
+    /*max-height: 200px;
+    max-width: 200px;
+    */
 }
 
 /* Blog Page */
