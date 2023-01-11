@@ -41,12 +41,36 @@
 .mainPage{
     /*font-family: 'Arvo', serif;*/
 }
+
+/*image slideshow */
+
 .banner{
-    background-image: url(images/envPhoto2.jpg);
+    background-color: black;
     background-position: center;
     background-size: cover;
     height: 100vh;
+    background-image: url(images/envPhoto1.jpg); 
+    
 }
+
+#prevbtn, 
+#nextbtn{
+    position:absolute;
+    color:white;
+    top: 50%;
+    font-size: 50px;
+
+    border-radius: 100%;
+}
+
+#prevbtn{
+    left: 10%;
+}
+
+#nextbtn{
+    right: 10%;
+}
+
 .banner-text{
     text-align: center;
     color:white;
