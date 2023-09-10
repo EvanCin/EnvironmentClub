@@ -1,5 +1,6 @@
 # Environment Club
 
+Live Preview: https://evancin.github.io/EnvironmentClub/
 - Used to demonstrate the initiatives that the environment club has done over the years
 - Contains a calendar that shows the up coming initiatives
 - A page with contact information of past executives
